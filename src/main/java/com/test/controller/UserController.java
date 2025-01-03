@@ -31,4 +31,5 @@ public class UserController {
         userService.saveUser(user);
         return new ResponseEntity<>("User registered successfully!", HttpStatus.CREATED);
     }
+    
 }
